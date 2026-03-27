@@ -9,6 +9,9 @@
 - `projects/seomachine-codex/`：从 `seomachine-codex` 提取并整理的 Codex 资产包
 - `projects/social-push/`：已支持 Codex 的社媒发布技能包归档
 
+原始源项目统一放在：
+- `/Users/frank_zhang/codex/migration-sources/`
+
 ## 当前收录
 
 - `everything-claude-code`
@@ -31,3 +34,4 @@
 2. 优先保留能被 Codex 直接消费的技能、提示模板、agent 配置和脚本。
 3. 对 hooks、slash commands、自动链式执行等能力，统一做显式降级。
 4. 安装到 `~/.codex` 时，优先补“当前环境里没有、但复用价值高”的内容。
+5. 总仓库只保存整理后的资产，不直接承载上游源项目仓库。

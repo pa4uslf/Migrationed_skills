@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
-SOURCE_DIR="/Users/frank_zhang/codex/seomachine-codex"
+SOURCE_DIR="${SOURCE_DIR:-/Users/frank_zhang/codex/migration-sources/seomachine-codex}"
 
 COMMANDS_SRC="$SOURCE_DIR/.claude/commands"
 COMMANDS_DEST="$ROOT_DIR/commands"

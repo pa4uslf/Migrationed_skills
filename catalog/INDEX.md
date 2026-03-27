@@ -75,3 +75,8 @@
 推荐使用方式：
 - 只在确实需要社媒发布自动化时安装
 - 把 `social-push` 和 `agent-browser` 一起使用
+
+## Source Repos
+
+原始源项目位置见：
+`catalog/SOURCES.md`
