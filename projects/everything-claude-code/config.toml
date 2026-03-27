@@ -1,0 +1,74 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+# Migrationed ECC baseline for Codex.
+# Keep this file minimal and stable: prefer well-documented Codex fields only.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[features]
+multi_agent = true
+
+[profiles.strict]
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+
+[profiles.yolo]
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[agents]
+max_threads = 8
+max_depth = 1
+
+[agents.explorer]
+description = "Read-only codebase explorer."
+config_file = "agents/explorer.toml"
+
+[agents.reviewer]
+description = "General code reviewer."
+config_file = "agents/reviewer.toml"
+
+[agents.docs_researcher]
+description = "API and release-note verification specialist."
+config_file = "agents/docs-researcher.toml"
+
+[agents.planner]
+description = "Planning specialist for complex changes."
+config_file = "agents/planner.toml"
+
+[agents.architect]
+description = "Architecture specialist for design and tradeoffs."
+config_file = "agents/architect.toml"
+
+[agents.tdd_guide]
+description = "TDD specialist for red-green-refactor execution."
+config_file = "agents/tdd-guide.toml"
+
+[agents.code_reviewer]
+description = "Detailed code review focused on correctness and maintainability."
+config_file = "agents/code-reviewer.toml"
+
+[agents.security_reviewer]
+description = "Security reviewer focused on OWASP-style risks."
+config_file = "agents/security-reviewer.toml"
+
+[agents.build_error_resolver]
+description = "Build and type error resolver."
+config_file = "agents/build-error-resolver.toml"
+
+[agents.e2e_runner]
+description = "End-to-end workflow tester."
+config_file = "agents/e2e-runner.toml"
+
+[agents.doc_updater]
+description = "Documentation maintainer."
+config_file = "agents/doc-updater.toml"
+
+[agents.docs_lookup]
+description = "Documentation lookup and API verification specialist."
+config_file = "agents/docs-lookup.toml"
+
+[agents.refactor_cleaner]
+description = "Safe refactor and dead-code cleanup specialist."
+config_file = "agents/refactor-cleaner.toml"

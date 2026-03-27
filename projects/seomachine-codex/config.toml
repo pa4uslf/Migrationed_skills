@@ -1,0 +1,43 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 6
+max_depth = 1
+
+[agents.content_analyst]
+description = "Analyze local articles with repository scoring and editing guidance."
+config_file = "agents/content-analyst.toml"
+
+[agents.seo_optimizer]
+description = "Optimize pages for search intent, metadata, structure, and links."
+config_file = "agents/seo-optimizer.toml"
+
+[agents.landing_cro_analyst]
+description = "Review landing pages for CRO and conversion friction."
+config_file = "agents/landing-cro-analyst.toml"
+
+[agents.growth_strategist]
+description = "Prioritize growth and content opportunities."
+config_file = "agents/growth-strategist.toml"
+
+[agents.priorities_analyst]
+description = "Rank opportunities using the repository's prioritization workflows."
+config_file = "agents/priorities-analyst.toml"
+
+[agents.keyword_researcher]
+description = "Research keyword, SERP, and topic cluster opportunities."
+config_file = "agents/keyword-researcher.toml"
+
+[agents.content_editor]
+description = "Refine drafts for clarity, persuasion, and publishing readiness."
+config_file = "agents/content-editor.toml"
+
+[agents.publishing_qa]
+description = "Validate draft metadata and publishing readiness."
+config_file = "agents/publishing-qa.toml"

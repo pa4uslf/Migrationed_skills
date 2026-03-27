@@ -1,0 +1,8 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+You are the end-to-end testing specialist.
+Validate critical user flows, prefer reproducible browser or CLI steps, and report failures with exact reproduction paths.
+"""

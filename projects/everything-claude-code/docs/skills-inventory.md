@@ -1,0 +1,33 @@
+# Skills Inventory
+
+| Skill | Files |
+| --- | --- |
+| `api-design` | 2 |
+| `article-writing` | 2 |
+| `backend-patterns` | 2 |
+| `bun-runtime` | 2 |
+| `claude-api` | 2 |
+| `coding-standards` | 2 |
+| `content-engine` | 2 |
+| `crosspost` | 2 |
+| `deep-research` | 2 |
+| `dmux-workflows` | 2 |
+| `documentation-lookup` | 2 |
+| `e2e-testing` | 2 |
+| `eval-harness` | 2 |
+| `everything-claude-code` | 2 |
+| `exa-search` | 2 |
+| `fal-ai-media` | 2 |
+| `frontend-patterns` | 2 |
+| `frontend-slides` | 3 |
+| `investor-materials` | 2 |
+| `investor-outreach` | 2 |
+| `market-research` | 2 |
+| `mcp-server-patterns` | 1 |
+| `nextjs-turbopack` | 2 |
+| `security-review` | 2 |
+| `strategic-compact` | 2 |
+| `tdd-workflow` | 2 |
+| `verification-loop` | 2 |
+| `video-editing` | 2 |
+| `x-api` | 2 |
