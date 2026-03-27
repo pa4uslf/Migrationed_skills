@@ -13,6 +13,7 @@
 - 提供最小稳定的 `config.toml`
 - 提供 Codex 版 `AGENTS.md`
 - 文档化 hooks 降级策略
+- 从 `backup/` 中剥离依赖清单文件（如 `package-lock.json`、`Cargo.lock` 等），避免 GitHub Dependabot 将参考备份误判为活跃依赖项目
 
 ## 迁移策略
 
