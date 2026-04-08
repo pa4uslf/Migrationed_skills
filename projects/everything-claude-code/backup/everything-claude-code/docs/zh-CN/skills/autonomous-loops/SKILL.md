@@ -238,7 +238,9 @@ PROMPT 1（协调器）              PROMPT 2（子代理）
 ### 安装
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AnandChowdhary/continuous-claude/HEAD/install.sh | bash
+git clone https://github.com/AnandChowdhary/continuous-claude.git
+cd continuous-claude
+./install.sh
 ```
 
 ### 用法
