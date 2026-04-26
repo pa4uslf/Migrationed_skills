@@ -8,6 +8,9 @@
 
 - `/Users/frank_zhang/codex/migration-sources/seomachine-codex`
 - `/Users/frank_zhang/codex/migration-sources/social-push`
+- `/Users/frank_zhang/codex/migration-sources/xiaohu-wechat-format`
+- `/Users/frank_zhang/codex/migration-sources/yichen-skills`
+- `https://github.com/zarazhangrui/frontend-slides`（当前快照已整理到 `Migrationed_skills/frontend_slides/backup/upstream/`）
 
 这样做的原因：
 
